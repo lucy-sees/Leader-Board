@@ -111,6 +111,6 @@ If you like this project give it a star!!!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](https://github.com/lucy-sees/Leader-Board/blob/83c89b57fba4d80be8f0f7ad2bf7ee5213a7d990/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
