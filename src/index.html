@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;1,400&family=Emilys+Candy&display=swap" rel="stylesheet">
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <h1>Leaderboard</h1>
+    <section class="container">
+      <section class="left-container">
+        <label for="refresh">
+          <h2>Recent scores</h2>
+        </label>
+        <input type="button" value="Refresh" name="refresh" id="refresh" class="btn"/>
+        <ul id="list-ul">
+          <!-- This part generates automatiaclly at runtime -->
+        </ul>
+      </section>
+      <section class="right-container">
+        <form action="">
+        <h2>Add your score</h2>
+        <input type="text" placeholder="Your name" required id="name-input"/>
+        <br />
+        <input type="text" placeholder="Your score" required id="score-input"/>
+        <br />
+        <button type="submit" id="submit" class="btn">Submit</button>
+      </form>
+      </section>
+    </section>
+    <script src="../dist/main.js"></script>
+  </body>
+</html>
